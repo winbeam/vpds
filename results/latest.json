@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-15T04:01:56Z",
+ "generated_at_utc": "2026-10-15T04:20:42Z",
  "generated_date_kst": "2026-10-15",
  "params": {
   "recent_days": 20,
@@ -19,7 +19,7 @@
    "universe_count": 350,
    "warnings": [],
    "price_coverage": 350,
-   "elapsed_sec": 29.4
+   "elapsed_sec": 27.1
   },
   "US": {
    "as_of": "2026-10-14",
@@ -301,7 +301,7 @@
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 50.2
+   "elapsed_sec": 43.3
   }
  },
  "errors": [],
