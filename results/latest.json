@@ -1,0 +1,30 @@
+{
+ "generated_at_utc": "2026-10-15T02:53:00Z",
+ "generated_date_kst": "2026-10-15",
+ "params": {
+  "recent_days": 20,
+  "base_days": 60,
+  "vol_mult": 3.0,
+  "price_band": 0.03,
+  "near_vol_mult": 2.0
+ },
+ "markets": {
+  "KR": {
+   "error": "RuntimeError('naver KOSPI 시총상위200 only 0')",
+   "hits": [],
+   "near": []
+  },
+  "US": {
+   "error": "RuntimeError(\"table with {'Ticker'} not found\")",
+   "hits": [],
+   "near": []
+  }
+ },
+ "errors": [
+  "KR: RuntimeError('naver KOSPI 시총상위200 only 0')",
+  "US: RuntimeError(\"table with {'Ticker'} not found\")"
+ ],
+ "log": [
+  "[US] S&P500 503"
+ ]
+}
