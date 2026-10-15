@@ -3,5 +3,5 @@ pandas
 numpy
 requests
 lxml
+pyarrow
 pykrx
-finance-datareader

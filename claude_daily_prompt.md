@@ -1,12 +1,12 @@
 [매집 시그널 보드 일일 갱신] 예약 실행이다. 사용자는 자리에 없으니 질문하지 말고 끝까지 진행한다.
-저장소: {{REPO}}   대시보드: https://claude.ai/artifact/6zWpbQWSqqus2NLvcRBEup
+저장소: winbeam/vpds   대시보드: https://claude.ai/artifact/6zWpbQWSqqus2NLvcRBEup
 
 1) 데이터 받기 (Bash)
 mkdir -p "$PWD/vpd" && cd "$PWD/vpd" && T=$(date +%s)
-curl -fsSL -o latest.json   "https://raw.githubusercontent.com/{{REPO}}/main/results/latest.json?t=$T"
-curl -fsSL -o template.html "https://raw.githubusercontent.com/{{REPO}}/main/dashboard/template.html?t=$T"
-curl -fsSL -o build.py      "https://raw.githubusercontent.com/{{REPO}}/main/dashboard/build.py?t=$T"
-- latest.json의 generated_date_kst가 오늘(Asia/Seoul)이 아니면 report.data_warning에 "오늘 스크리닝 결과가 아직 없어 YYYY-MM-DD 결과를 표시합니다"라고 적는다. errors 배열이나 markets.*.error가 있으면 그 내용도 data_warning에 덧붙인다.
+curl -fsSL -o latest.json   "https://raw.githubusercontent.com/winbeam/vpds/master/results/latest.json?t=$T"
+curl -fsSL -o template.html "https://raw.githubusercontent.com/winbeam/vpds/master/dashboard/template.html?t=$T"
+curl -fsSL -o build.py      "https://raw.githubusercontent.com/winbeam/vpds/master/dashboard/build.py?t=$T"
+- latest.json의 generated_date_kst가 오늘(Asia/Seoul)이 아니면 report.data_warning에 "오늘 스크리닝 결과가 아직 없어 YYYY-MM-DD 결과를 표시합니다"라고 적는다. errors·warnings 배열이나 markets.*.error가 있으면 그 내용도 한국어로 짧게 data_warning에 덧붙인다.
 - 받기 자체가 실패하면 분석 없이 마지막 응답으로 실패 원인만 보고하고 끝낸다.
 
 2) 분석 대상: markets.KR.hits, markets.US.hits에서 각각 vol_ratio 상위 최대 8개(이미 내림차순 정렬됨). 나머지 hit는 analysis 없이 둔다. hit가 하나도 없으면 3)을 건너뛴다.

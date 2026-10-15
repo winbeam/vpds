@@ -6,9 +6,10 @@
 |---|---|
 | 조건 ① | 최근 20거래일 평균 거래량 ≥ 직전 60거래일 평균 거래량 × 3 |
 | 조건 ② | 최근 20거래일 종가 변동(20거래일 전 종가 대비) ±3% 이내 |
-| 국내 대상 | KOSPI200 + KOSDAQ150 (KRX 계정 미설정 시 시가총액 상위 200/150으로 근사, 우선주·ETF·스팩·리츠 제외) |
+| 국내 대상 | KOSPI200 + KOSDAQ150 (KRX 계정 미설정 시 [FinanceData/marcap](https://github.com/FinanceData/marcap) 기준 시가총액 상위 200/150으로 근사, 우선주·스팩·리츠 제외) |
 | 미국 대상 | S&P500 + Nasdaq-100 |
-| 가격 데이터 | Yahoo Finance(yfinance), 국내 누락분은 FinanceDataReader로 보완 |
+| 가격 데이터 | Yahoo Finance(yfinance), 국내 누락분은 marcap(KRX 일별 시세)로 보완 |
+| 미국 구성종목 | Wikipedia(S&P500), Nasdaq-100은 Wikipedia → Nasdaq API 순으로 시도, 실패 시 S&P500만 스캔 |
 
 ## 동작 흐름
 
@@ -32,7 +33,7 @@
 3. 저장소 **Settings → Actions → General → Workflow permissions**에서 **Read and write permissions**를 선택합니다 (결과 커밋용).
 4. **Actions** 탭 → `volume-price-divergence-screen` → **Run workflow**로 한 번 수동 실행해 `results/latest.json`이 생기는지 확인합니다.
 5. (선택) 실제 KOSPI200/KOSDAQ150 구성종목을 쓰려면 KRX 데이터포털(data.krx.co.kr) 계정을 **Settings → Secrets and variables → Actions**에 `KRX_ID`, `KRX_PW`로 등록합니다. 없으면 시가총액 상위 종목으로 근사합니다.
-6. 저장소 주소(`계정명/저장소명`)를 Claude에게 알려주면 07:00 예약 작업을 등록합니다.
+6. Claude 예약 작업(매일 07:00 KST)이 `claude_daily_prompt.md` 내용으로 실행됩니다.
 
 ## 참고
 
