@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-16T23:41:05Z",
- "generated_date_kst": "2026-10-17",
+ "generated_at_utc": "2026-10-17T23:12:42Z",
+ "generated_date_kst": "2026-10-18",
  "params": {
   "recent_days": 20,
   "base_days": 60,
@@ -289,7 +289,7 @@
    "universe_count": 351,
    "warnings": [],
    "price_coverage": 351,
-   "elapsed_sec": 32.9
+   "elapsed_sec": 39.3
   },
   "US": {
    "as_of": "2026-10-16",
@@ -313,9 +313,9 @@
      "base_close": 243.84,
      "price_chg_20d": 0.00217,
      "vol_ratio": 2.279,
-     "avg_vol_20": 4711144.0,
+     "avg_vol_20": 4711160.0,
      "avg_vol_60": 2067392.0,
-     "avg_turnover_20": 1359902292.0,
+     "avg_turnover_20": 1359906263.0,
      "range_20d": 0.30211,
      "max_day_share": 0.3702,
      "days_over_2x": 4
@@ -336,9 +336,9 @@
      "base_close": 75.9363,
      "price_chg_20d": 0.01506,
      "vol_ratio": 2.031,
-     "avg_vol_20": 5865750.0,
+     "avg_vol_20": 5865845.0,
      "avg_vol_60": 2888102.0,
-     "avg_turnover_20": 460200461.0,
+     "avg_turnover_20": 460207768.0,
      "range_20d": 0.16614,
      "max_day_share": 0.091,
      "days_over_2x": 9
@@ -348,7 +348,7 @@
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 38.8
+   "elapsed_sec": 46.5
   }
  },
  "errors": [],
