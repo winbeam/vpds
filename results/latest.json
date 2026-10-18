@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-17T23:12:42Z",
- "generated_date_kst": "2026-10-18",
+ "generated_at_utc": "2026-10-18T23:21:59Z",
+ "generated_date_kst": "2026-10-19",
  "params": {
   "recent_days": 20,
   "base_days": 60,
@@ -348,7 +348,7 @@
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 46.5
+   "elapsed_sec": 57.5
   }
  },
  "errors": [],
