@@ -1,0 +1,122 @@
+{
+ "generated_at_utc": "2026-10-20T00:26:44Z",
+ "generated_date_kst": "2026-10-20",
+ "params": {
+  "recent_days": 20,
+  "base_days": 60,
+  "vol_mult": 3.0,
+  "price_band": 0.03,
+  "near_vol_mult": 2.0
+ },
+ "markets": {
+  "KR": {
+   "as_of": "2026-10-20",
+   "scanned": 350,
+   "stale_excluded": 0,
+   "hits": [],
+   "near": [
+    {
+     "ticker": "036540",
+     "name": "SFA반도체",
+     "sector": "",
+     "index": [
+      "KOSDAQ150"
+     ],
+     "market": "KOSDAQ",
+     "currency": "KRW",
+     "yf": "036540.KQ",
+     "as_of": "2026-10-20",
+     "window_start": "2026-09-17",
+     "close": 8710.0,
+     "base_close": 8920.0,
+     "price_chg_20d": -0.02354,
+     "vol_ratio": 2.381,
+     "avg_vol_20": 6993852.0,
+     "avg_vol_60": 2937661.0,
+     "avg_turnover_20": 74066578914.0,
+     "range_20d": 0.44509,
+     "max_day_share": 0.1982,
+     "days_over_2x": 7
+    }
+   ],
+   "universe_source": "KRX 지수 구성종목 (pykrx)",
+   "universe_count": 351,
+   "warnings": [],
+   "price_coverage": 351,
+   "elapsed_sec": 36.5
+  },
+  "US": {
+   "as_of": "2026-10-16",
+   "scanned": 517,
+   "stale_excluded": 0,
+   "hits": [],
+   "near": [
+    {
+     "ticker": "TWLO",
+     "name": "Twilio",
+     "sector": "Information Technology",
+     "index": [
+      "S&P500"
+     ],
+     "market": "US",
+     "currency": "USD",
+     "yf": "TWLO",
+     "as_of": "2026-10-16",
+     "window_start": "2026-09-21",
+     "close": 244.37,
+     "base_close": 243.84,
+     "price_chg_20d": 0.00217,
+     "vol_ratio": 2.279,
+     "avg_vol_20": 4711160.0,
+     "avg_vol_60": 2067392.0,
+     "avg_turnover_20": 1359906263.0,
+     "range_20d": 0.30211,
+     "max_day_share": 0.3702,
+     "days_over_2x": 4
+    },
+    {
+     "ticker": "LEN",
+     "name": "Lennar",
+     "sector": "Consumer Discretionary",
+     "index": [
+      "S&P500"
+     ],
+     "market": "US",
+     "currency": "USD",
+     "yf": "LEN",
+     "as_of": "2026-10-16",
+     "window_start": "2026-09-21",
+     "close": 77.08,
+     "base_close": 75.9363,
+     "price_chg_20d": 0.01506,
+     "vol_ratio": 2.031,
+     "avg_vol_20": 5865845.0,
+     "avg_vol_60": 2888102.0,
+     "avg_turnover_20": 460207768.0,
+     "range_20d": 0.16614,
+     "max_day_share": 0.091,
+     "days_over_2x": 9
+    }
+   ],
+   "universe_source": "S&P500 + Nasdaq-100",
+   "universe_count": 518,
+   "warnings": [],
+   "price_coverage": 518,
+   "elapsed_sec": 40.6
+  }
+ },
+ "errors": [],
+ "warnings": [],
+ "log": [
+  "[KR] pykrx KOSPI200 201",
+  "[KR] pykrx KOSDAQ150 150",
+  "[KR] yfinance 351/351",
+  "[KR] as_of 2026-10-20 scanned 350 (stale 0) hits 0 near 1",
+  "[US] S&P500 503",
+  "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
+  "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
+  "[US] universe 518",
+  "[US] yfinance 518/518",
+  "[US] as_of 2026-10-16 scanned 517 (stale 0) hits 0 near 2"
+ ]
+}
