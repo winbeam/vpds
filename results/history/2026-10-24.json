@@ -1,0 +1,75 @@
+{
+ "generated_at_utc": "2026-10-23T23:53:22Z",
+ "generated_date_kst": "2026-10-24",
+ "params": {
+  "recent_days": 20,
+  "base_days": 60,
+  "vol_mult": 3.0,
+  "price_band": 0.03,
+  "near_vol_mult": 2.0
+ },
+ "markets": {
+  "KR": {
+   "as_of": "2026-10-23",
+   "scanned": 350,
+   "stale_excluded": 0,
+   "hits": [],
+   "near": [
+    {
+     "ticker": "281740",
+     "name": "레이크머티리얼즈",
+     "sector": "",
+     "index": [
+      "KOSDAQ150"
+     ],
+     "market": "KOSDAQ",
+     "currency": "KRW",
+     "yf": "281740.KQ",
+     "as_of": "2026-10-23",
+     "window_start": "2026-09-22",
+     "close": 10940.0,
+     "base_close": 10670.0,
+     "price_chg_20d": 0.0253,
+     "vol_ratio": 2.176,
+     "avg_vol_20": 738180.0,
+     "avg_vol_60": 339271.0,
+     "avg_turnover_20": 9015946584.0,
+     "range_20d": 0.29072,
+     "max_day_share": 0.1034,
+     "days_over_2x": 10
+    }
+   ],
+   "universe_source": "KRX 지수 구성종목 (pykrx)",
+   "universe_count": 351,
+   "warnings": [],
+   "price_coverage": 351,
+   "elapsed_sec": 38.5
+  },
+  "US": {
+   "as_of": "2026-10-23",
+   "scanned": 517,
+   "stale_excluded": 0,
+   "hits": [],
+   "near": [],
+   "universe_source": "S&P500 + Nasdaq-100",
+   "universe_count": 518,
+   "warnings": [],
+   "price_coverage": 518,
+   "elapsed_sec": 54.9
+  }
+ },
+ "errors": [],
+ "warnings": [],
+ "log": [
+  "[KR] pykrx KOSPI200 201",
+  "[KR] pykrx KOSDAQ150 150",
+  "[KR] yfinance 351/351",
+  "[KR] as_of 2026-10-23 scanned 350 (stale 0) hits 0 near 1",
+  "[US] S&P500 503",
+  "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
+  "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
+  "[US] universe 518",
+  "[US] yfinance 518/518",
+  "[US] as_of 2026-10-23 scanned 517 (stale 0) hits 0 near 0"
+ ]
+}
