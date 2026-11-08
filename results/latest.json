@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-07T00:58:44Z",
- "generated_date_kst": "2026-11-07",
+ "generated_at_utc": "2026-11-08T00:46:33Z",
+ "generated_date_kst": "2026-11-08",
  "params": {
   "recent_days": 20,
   "base_days": 60,
@@ -43,7 +43,7 @@
    "universe_count": 351,
    "warnings": [],
    "price_coverage": 351,
-   "elapsed_sec": 33.5
+   "elapsed_sec": 31.5
   },
   "US": {
    "as_of": "2026-11-06",
@@ -55,7 +55,7 @@
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 39.9
+   "elapsed_sec": 37.6
   }
  },
  "errors": [],
