@@ -1,0 +1,75 @@
+{
+ "generated_at_utc": "2026-11-14T01:29:44Z",
+ "generated_date_kst": "2026-11-14",
+ "params": {
+  "recent_days": 20,
+  "base_days": 60,
+  "vol_mult": 3.0,
+  "price_band": 0.03,
+  "near_vol_mult": 2.0
+ },
+ "markets": {
+  "KR": {
+   "as_of": "2026-11-13",
+   "scanned": 350,
+   "stale_excluded": 0,
+   "hits": [],
+   "near": [],
+   "universe_source": "KRX 지수 구성종목 (pykrx)",
+   "universe_count": 351,
+   "warnings": [],
+   "price_coverage": 351,
+   "elapsed_sec": 29.6
+  },
+  "US": {
+   "as_of": "2026-11-12",
+   "scanned": 517,
+   "stale_excluded": 0,
+   "hits": [],
+   "near": [
+    {
+     "ticker": "FOXA",
+     "name": "Fox Corporation (Class A)",
+     "sector": "Communication Services",
+     "index": [
+      "S&P500"
+     ],
+     "market": "US",
+     "currency": "USD",
+     "yf": "FOXA",
+     "as_of": "2026-11-12",
+     "window_start": "2026-10-16",
+     "close": 65.71,
+     "base_close": 63.98,
+     "price_chg_20d": 0.02704,
+     "vol_ratio": 2.014,
+     "avg_vol_20": 9476685.0,
+     "avg_vol_60": 4704735.0,
+     "avg_turnover_20": 629278319.0,
+     "range_20d": 0.13478,
+     "max_day_share": 0.2477,
+     "days_over_2x": 5
+    }
+   ],
+   "universe_source": "S&P500 + Nasdaq-100",
+   "universe_count": 518,
+   "warnings": [],
+   "price_coverage": 518,
+   "elapsed_sec": 30.5
+  }
+ },
+ "errors": [],
+ "warnings": [],
+ "log": [
+  "[KR] pykrx KOSPI200 201",
+  "[KR] pykrx KOSDAQ150 150",
+  "[KR] yfinance 351/351",
+  "[KR] as_of 2026-11-13 scanned 350 (stale 0) hits 0 near 0",
+  "[US] S&P500 503",
+  "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
+  "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
+  "[US] universe 518",
+  "[US] yfinance 518/518",
+  "[US] as_of 2026-11-12 scanned 517 (stale 0) hits 0 near 1"
+ ]
+}
