@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-16T01:08:17Z",
- "generated_date_kst": "2026-11-16",
+ "generated_at_utc": "2026-11-17T03:59:22Z",
+ "generated_date_kst": "2026-11-17",
  "params": {
   "recent_days": 20,
   "base_days": 60,
@@ -10,43 +10,19 @@
  },
  "markets": {
   "KR": {
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "scanned": 350,
    "stale_excluded": 0,
    "hits": [],
-   "near": [
-    {
-     "ticker": "253590",
-     "name": "네오셈",
-     "sector": "",
-     "index": [
-      "KOSDAQ150"
-     ],
-     "market": "KOSDAQ",
-     "currency": "KRW",
-     "yf": "253590.KQ",
-     "as_of": "2026-11-16",
-     "window_start": "2026-10-20",
-     "close": 15800.0,
-     "base_close": 15410.0,
-     "price_chg_20d": 0.02531,
-     "vol_ratio": 2.548,
-     "avg_vol_20": 1706610.0,
-     "avg_vol_60": 669879.0,
-     "avg_turnover_20": 27384242496.0,
-     "range_20d": 0.67936,
-     "max_day_share": 0.1469,
-     "days_over_2x": 14
-    }
-   ],
+   "near": [],
    "universe_source": "KRX 지수 구성종목 (pykrx)",
    "universe_count": 351,
    "warnings": [],
    "price_coverage": 351,
-   "elapsed_sec": 34.5
+   "elapsed_sec": 27.9
   },
   "US": {
-   "as_of": "2026-11-13",
+   "as_of": "2026-11-16",
    "scanned": 517,
    "stale_excluded": 0,
    "hits": [],
@@ -55,7 +31,7 @@
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 37.0
+   "elapsed_sec": 29.6
   }
  },
  "errors": [],
@@ -64,12 +40,12 @@
   "[KR] pykrx KOSPI200 201",
   "[KR] pykrx KOSDAQ150 150",
   "[KR] yfinance 351/351",
-  "[KR] as_of 2026-11-16 scanned 350 (stale 0) hits 0 near 1",
+  "[KR] as_of 2026-11-17 scanned 350 (stale 0) hits 0 near 0",
   "[US] S&P500 503",
   "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
   "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
   "[US] universe 518",
   "[US] yfinance 518/518",
-  "[US] as_of 2026-11-13 scanned 517 (stale 0) hits 0 near 0"
+  "[US] as_of 2026-11-16 scanned 517 (stale 0) hits 0 near 0"
  ]
 }
