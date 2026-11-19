@@ -1,0 +1,76 @@
+{
+ "generated_at_utc": "2026-11-19T02:39:46Z",
+ "generated_date_kst": "2026-11-19",
+ "params": {
+  "recent_days": 20,
+  "base_days": 60,
+  "vol_mult": 3.0,
+  "price_band": 0.03,
+  "near_vol_mult": 2.0
+ },
+ "markets": {
+  "KR": {
+   "as_of": "2026-11-19",
+   "scanned": 350,
+   "stale_excluded": 0,
+   "hits": [],
+   "near": [],
+   "universe_source": "KRX 지수 구성종목 (pykrx)",
+   "universe_count": 351,
+   "warnings": [],
+   "price_coverage": 351,
+   "elapsed_sec": 36.5
+  },
+  "US": {
+   "as_of": "2026-11-18",
+   "scanned": 516,
+   "stale_excluded": 1,
+   "hits": [],
+   "near": [
+    {
+     "ticker": "KDP",
+     "name": "Keurig Dr Pepper",
+     "sector": "Consumer Staples",
+     "index": [
+      "S&P500",
+      "NDX100"
+     ],
+     "market": "US",
+     "currency": "USD",
+     "yf": "KDP",
+     "as_of": "2026-11-18",
+     "window_start": "2026-10-22",
+     "close": 35.01,
+     "base_close": 34.47,
+     "price_chg_20d": 0.01567,
+     "vol_ratio": 2.118,
+     "avg_vol_20": 24091030.0,
+     "avg_vol_60": 11372150.0,
+     "avg_turnover_20": 864707349.0,
+     "range_20d": 0.11698,
+     "max_day_share": 0.1253,
+     "days_over_2x": 9
+    }
+   ],
+   "universe_source": "S&P500 + Nasdaq-100",
+   "universe_count": 518,
+   "warnings": [],
+   "price_coverage": 518,
+   "elapsed_sec": 35.9
+  }
+ },
+ "errors": [],
+ "warnings": [],
+ "log": [
+  "[KR] pykrx KOSPI200 201",
+  "[KR] pykrx KOSDAQ150 150",
+  "[KR] yfinance 351/351",
+  "[KR] as_of 2026-11-19 scanned 350 (stale 0) hits 0 near 0",
+  "[US] S&P500 503",
+  "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
+  "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
+  "[US] universe 518",
+  "[US] yfinance 518/518",
+  "[US] as_of 2026-11-18 scanned 516 (stale 1) hits 0 near 1"
+ ]
+}
