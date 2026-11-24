@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-23T01:49:58Z",
- "generated_date_kst": "2026-11-23",
+ "generated_at_utc": "2026-11-24T05:22:02Z",
+ "generated_date_kst": "2026-11-24",
  "params": {
   "recent_days": 20,
   "base_days": 60,
@@ -10,43 +10,19 @@
  },
  "markets": {
   "KR": {
-   "as_of": "2026-11-23",
+   "as_of": "2026-11-24",
    "scanned": 350,
    "stale_excluded": 0,
    "hits": [],
-   "near": [
-    {
-     "ticker": "121600",
-     "name": "나노신소재",
-     "sector": "",
-     "index": [
-      "KOSDAQ150"
-     ],
-     "market": "KOSDAQ",
-     "currency": "KRW",
-     "yf": "121600.KQ",
-     "as_of": "2026-11-23",
-     "window_start": "2026-10-27",
-     "close": 56200.0,
-     "base_close": 55300.0,
-     "price_chg_20d": 0.01627,
-     "vol_ratio": 2.876,
-     "avg_vol_20": 208150.0,
-     "avg_vol_60": 72369.0,
-     "avg_turnover_20": 14051143205.0,
-     "range_20d": 0.41818,
-     "max_day_share": 0.1055,
-     "days_over_2x": 15
-    }
-   ],
+   "near": [],
    "universe_source": "KRX 지수 구성종목 (pykrx)",
    "universe_count": 351,
    "warnings": [],
    "price_coverage": 351,
-   "elapsed_sec": 35.8
+   "elapsed_sec": 32.9
   },
   "US": {
-   "as_of": "2026-11-20",
+   "as_of": "2026-11-23",
    "scanned": 516,
    "stale_excluded": 1,
    "hits": [],
@@ -62,25 +38,49 @@
      "market": "US",
      "currency": "USD",
      "yf": "KDP",
-     "as_of": "2026-11-20",
-     "window_start": "2026-10-26",
-     "close": 34.84,
-     "base_close": 34.68,
-     "price_chg_20d": 0.00461,
-     "vol_ratio": 2.054,
-     "avg_vol_20": 23683460.0,
-     "avg_vol_60": 11530283.0,
-     "avg_turnover_20": 849733245.0,
+     "as_of": "2026-11-23",
+     "window_start": "2026-10-27",
+     "close": 35.43,
+     "base_close": 34.99,
+     "price_chg_20d": 0.01257,
+     "vol_ratio": 2.089,
+     "avg_vol_20": 24067280.0,
+     "avg_vol_60": 11520477.0,
+     "avg_turnover_20": 863571105.0,
      "range_20d": 0.1232,
-     "max_day_share": 0.1274,
+     "max_day_share": 0.1254,
      "days_over_2x": 8
+    },
+    {
+     "ticker": "TTWO",
+     "name": "Take-Two Interactive",
+     "sector": "Communication Services",
+     "index": [
+      "S&P500",
+      "NDX100"
+     ],
+     "market": "US",
+     "currency": "USD",
+     "yf": "TTWO",
+     "as_of": "2026-11-23",
+     "window_start": "2026-10-27",
+     "close": 209.36,
+     "base_close": 203.35,
+     "price_chg_20d": 0.02955,
+     "vol_ratio": 2.083,
+     "avg_vol_20": 5229365.0,
+     "avg_vol_60": 2510947.0,
+     "avg_turnover_20": 1106464708.0,
+     "range_20d": 0.29125,
+     "max_day_share": 0.116,
+     "days_over_2x": 10
     }
    ],
    "universe_source": "S&P500 + Nasdaq-100",
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 38.6
+   "elapsed_sec": 35.3
   }
  },
  "errors": [],
@@ -89,12 +89,12 @@
   "[KR] pykrx KOSPI200 201",
   "[KR] pykrx KOSDAQ150 150",
   "[KR] yfinance 351/351",
-  "[KR] as_of 2026-11-23 scanned 350 (stale 0) hits 0 near 1",
+  "[KR] as_of 2026-11-24 scanned 350 (stale 0) hits 0 near 0",
   "[US] S&P500 503",
   "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
   "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
   "[US] universe 518",
   "[US] yfinance 518/518",
-  "[US] as_of 2026-11-20 scanned 516 (stale 1) hits 0 near 1"
+  "[US] as_of 2026-11-23 scanned 516 (stale 1) hits 0 near 2"
  ]
 }
