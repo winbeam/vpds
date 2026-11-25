@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-24T05:22:02Z",
- "generated_date_kst": "2026-11-24",
+ "generated_at_utc": "2026-11-25T04:19:32Z",
+ "generated_date_kst": "2026-11-25",
  "params": {
   "recent_days": 20,
   "base_days": 60,
@@ -10,19 +10,66 @@
  },
  "markets": {
   "KR": {
-   "as_of": "2026-11-24",
+   "as_of": "2026-11-25",
    "scanned": 350,
    "stale_excluded": 0,
    "hits": [],
-   "near": [],
+   "near": [
+    {
+     "ticker": "030530",
+     "name": "원익홀딩스",
+     "sector": "",
+     "index": [
+      "KOSDAQ150"
+     ],
+     "market": "KOSDAQ",
+     "currency": "KRW",
+     "yf": "030530.KQ",
+     "as_of": "2026-11-25",
+     "window_start": "2026-10-29",
+     "close": 27750.0,
+     "base_close": 28000.0,
+     "price_chg_20d": -0.00893,
+     "vol_ratio": 2.549,
+     "avg_vol_20": 4774924.0,
+     "avg_vol_60": 1873387.0,
+     "avg_turnover_20": 149145980908.0,
+     "range_20d": 0.57143,
+     "max_day_share": 0.1177,
+     "days_over_2x": 11
+    },
+    {
+     "ticker": "004990",
+     "name": "롯데지주",
+     "sector": "",
+     "index": [
+      "KOSPI200"
+     ],
+     "market": "KOSPI",
+     "currency": "KRW",
+     "yf": "004990.KS",
+     "as_of": "2026-11-25",
+     "window_start": "2026-10-29",
+     "close": 21850.0,
+     "base_close": 21400.0,
+     "price_chg_20d": 0.02103,
+     "vol_ratio": 2.336,
+     "avg_vol_20": 276721.0,
+     "avg_vol_60": 118477.0,
+     "avg_turnover_20": 6122150332.0,
+     "range_20d": 0.11111,
+     "max_day_share": 0.6551,
+     "days_over_2x": 1
+    }
+   ],
    "universe_source": "KRX 지수 구성종목 (pykrx)",
    "universe_count": 351,
    "warnings": [],
    "price_coverage": 351,
-   "elapsed_sec": 32.9
+   "elapsed_sec": 35.0
   },
   "US": {
-   "as_of": "2026-11-23",
+   "as_of": "2026-11-24",
    "scanned": 516,
    "stale_excluded": 1,
    "hits": [],
@@ -38,49 +85,25 @@
      "market": "US",
      "currency": "USD",
      "yf": "KDP",
-     "as_of": "2026-11-23",
-     "window_start": "2026-10-27",
-     "close": 35.43,
-     "base_close": 34.99,
-     "price_chg_20d": 0.01257,
-     "vol_ratio": 2.089,
-     "avg_vol_20": 24067280.0,
-     "avg_vol_60": 11520477.0,
-     "avg_turnover_20": 863571105.0,
+     "as_of": "2026-11-24",
+     "window_start": "2026-10-28",
+     "close": 35.8,
+     "base_close": 34.86,
+     "price_chg_20d": 0.02696,
+     "vol_ratio": 2.112,
+     "avg_vol_20": 24256155.0,
+     "avg_vol_60": 11483847.0,
+     "avg_turnover_20": 870813132.0,
      "range_20d": 0.1232,
-     "max_day_share": 0.1254,
+     "max_day_share": 0.1244,
      "days_over_2x": 8
-    },
-    {
-     "ticker": "TTWO",
-     "name": "Take-Two Interactive",
-     "sector": "Communication Services",
-     "index": [
-      "S&P500",
-      "NDX100"
-     ],
-     "market": "US",
-     "currency": "USD",
-     "yf": "TTWO",
-     "as_of": "2026-11-23",
-     "window_start": "2026-10-27",
-     "close": 209.36,
-     "base_close": 203.35,
-     "price_chg_20d": 0.02955,
-     "vol_ratio": 2.083,
-     "avg_vol_20": 5229365.0,
-     "avg_vol_60": 2510947.0,
-     "avg_turnover_20": 1106464708.0,
-     "range_20d": 0.29125,
-     "max_day_share": 0.116,
-     "days_over_2x": 10
     }
    ],
    "universe_source": "S&P500 + Nasdaq-100",
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 35.3
+   "elapsed_sec": 41.1
   }
  },
  "errors": [],
@@ -89,12 +112,12 @@
   "[KR] pykrx KOSPI200 201",
   "[KR] pykrx KOSDAQ150 150",
   "[KR] yfinance 351/351",
-  "[KR] as_of 2026-11-24 scanned 350 (stale 0) hits 0 near 0",
+  "[KR] as_of 2026-11-25 scanned 350 (stale 0) hits 0 near 2",
   "[US] S&P500 503",
   "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
   "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
   "[US] universe 518",
   "[US] yfinance 518/518",
-  "[US] as_of 2026-11-23 scanned 516 (stale 1) hits 0 near 2"
+  "[US] as_of 2026-11-24 scanned 516 (stale 1) hits 0 near 1"
  ]
 }
