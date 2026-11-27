@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-26T03:39:04Z",
- "generated_date_kst": "2026-11-26",
+ "generated_at_utc": "2026-11-27T03:40:18Z",
+ "generated_date_kst": "2026-11-27",
  "params": {
   "recent_days": 20,
   "base_days": 60,
@@ -10,34 +10,11 @@
  },
  "markets": {
   "KR": {
-   "as_of": "2026-11-26",
+   "as_of": "2026-11-27",
    "scanned": 350,
    "stale_excluded": 0,
    "hits": [],
    "near": [
-    {
-     "ticker": "030530",
-     "name": "원익홀딩스",
-     "sector": "",
-     "index": [
-      "KOSDAQ150"
-     ],
-     "market": "KOSDAQ",
-     "currency": "KRW",
-     "yf": "030530.KQ",
-     "as_of": "2026-11-26",
-     "window_start": "2026-10-30",
-     "close": 28000.0,
-     "base_close": 28050.0,
-     "price_chg_20d": -0.00178,
-     "vol_ratio": 2.507,
-     "avg_vol_20": 4798414.0,
-     "avg_vol_60": 1913734.0,
-     "avg_turnover_20": 149803734092.0,
-     "range_20d": 0.57143,
-     "max_day_share": 0.1171,
-     "days_over_2x": 12
-    },
     {
      "ticker": "004990",
      "name": "롯데지주",
@@ -48,25 +25,48 @@
      "market": "KOSPI",
      "currency": "KRW",
      "yf": "004990.KS",
-     "as_of": "2026-11-26",
-     "window_start": "2026-10-30",
-     "close": 21350.0,
-     "base_close": 21500.0,
-     "price_chg_20d": -0.00698,
-     "vol_ratio": 2.44,
-     "avg_vol_20": 283348.0,
-     "avg_vol_60": 116136.0,
-     "avg_turnover_20": 6267167710.0,
-     "range_20d": 0.11111,
-     "max_day_share": 0.6398,
-     "days_over_2x": 1
+     "as_of": "2026-11-27",
+     "window_start": "2026-11-02",
+     "close": 21500.0,
+     "base_close": 21550.0,
+     "price_chg_20d": -0.00232,
+     "vol_ratio": 2.533,
+     "avg_vol_20": 292429.0,
+     "avg_vol_60": 115429.0,
+     "avg_turnover_20": 6459308160.0,
+     "range_20d": 0.11374,
+     "max_day_share": 0.6199,
+     "days_over_2x": 2
+    },
+    {
+     "ticker": "056080",
+     "name": "유진로봇",
+     "sector": "",
+     "index": [
+      "KOSDAQ150"
+     ],
+     "market": "KOSDAQ",
+     "currency": "KRW",
+     "yf": "056080.KQ",
+     "as_of": "2026-11-27",
+     "window_start": "2026-11-02",
+     "close": 9800.0,
+     "base_close": 9550.0,
+     "price_chg_20d": 0.02618,
+     "vol_ratio": 2.098,
+     "avg_vol_20": 750387.0,
+     "avg_vol_60": 357726.0,
+     "avg_turnover_20": 6723684772.0,
+     "range_20d": 0.45068,
+     "max_day_share": 0.2794,
+     "days_over_2x": 6
     }
    ],
    "universe_source": "KRX 지수 구성종목 (pykrx)",
    "universe_count": 351,
    "warnings": [],
    "price_coverage": 351,
-   "elapsed_sec": 32.9
+   "elapsed_sec": 36.5
   },
   "US": {
    "as_of": "2026-11-25",
@@ -103,7 +103,7 @@
    "universe_count": 518,
    "warnings": [],
    "price_coverage": 518,
-   "elapsed_sec": 32.4
+   "elapsed_sec": 40.7
   }
  },
  "errors": [],
@@ -112,7 +112,7 @@
   "[KR] pykrx KOSPI200 201",
   "[KR] pykrx KOSDAQ150 150",
   "[KR] yfinance 351/351",
-  "[KR] as_of 2026-11-26 scanned 350 (stale 0) hits 0 near 2",
+  "[KR] as_of 2026-11-27 scanned 350 (stale 0) hits 0 near 2",
   "[US] S&P500 503",
   "[US] Nasdaq-100 _ndx_wiki failed: RuntimeError('Wikipedia Nasdaq-100 page has no components table')",
   "[US] Nasdaq-100 via _ndx_nasdaq_api: 101",
